@@ -1,0 +1,7 @@
+{
+  "redirects": [
+    { "source": "/criminal-defense", "destination": "/practice/criminal-defense.html", "permanent": true },
+    { "source": "/areas-of-practice", "destination": "/practice-areas.html", "permanent": true },
+    { "source": "/newpage", "destination": "/", "permanent": true }
+  ]
+}

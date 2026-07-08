@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://littlefieldlegal.com/sitemap.xml
+Sitemap: https://www.littlefieldlegal.com/sitemap.xml
