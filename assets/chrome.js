@@ -9,12 +9,18 @@
             <a href="index.html" data-page="index.html">Home</a>
             <a href="about.html" data-page="about.html">About</a>
             <div class="nav-dropdown">
-              <a href="practice-areas.html" data-page="practice-areas.html">Areas of Practice</a>
+              <a href="practice-areas.html" data-page="practice-areas.html">Criminal Defense</a>
               <div class="nav-dropdown-menu">
-                <a href="practice-areas.html">All Areas<small>Overview of services</small></a>
-                <a href="practice/criminal-defense.html">Criminal Defense<small>DUI, drugs, assault, theft, traffic</small></a>
-                <a href="practice/contracts.html">Contracts<small>Drafting, review, interpretation</small></a>
-                <a href="practice/wills-trusts-estate.html">Wills, Trusts &amp; Estate<small>Estate planning &amp; trust creation</small></a>
+                <a href="practice/criminal-defense.html">All Charges We Handle<small>Overview &amp; how cases work</small></a>
+                <a href="practice/criminal-defense/dui.html">DUI Defense<small>Utah County &amp; statewide</small></a>
+                <a href="practice/criminal-defense/drug-possession.html">Drug Possession<small>Simple possession charges</small></a>
+                <a href="practice/criminal-defense/drug-trafficking.html">Drug Distribution &amp; Trafficking<small>Intent to distribute</small></a>
+                <a href="practice/criminal-defense/domestic-violence.html">Domestic Violence<small>Cohabitant abuse charges</small></a>
+                <a href="practice/criminal-defense/assault.html">Assault<small>Simple &amp; aggravated</small></a>
+                <a href="practice/criminal-defense/theft.html">Theft &amp; Shoplifting<small>Petty to felony theft</small></a>
+                <a href="practice/criminal-defense/burglary.html">Burglary<small>Dwelling &amp; non-dwelling</small></a>
+                <a href="practice/criminal-defense/traffic-offenses.html">Traffic Offenses<small>Reckless driving &amp; more</small></a>
+                <a href="practice/criminal-defense/expungement.html">Expungement<small>Clean Slate &amp; record relief</small></a>
               </div>
             </div>
           </div>
@@ -51,14 +57,18 @@
                 <span class="m">L</span>
                 <span class="t">Littlefield <em>Legal</em></span>
               </div>
-              <p class="blurb">A boutique Utah law practice. Criminal defense, contracts, and wills &amp; estate planning — handled directly by attorney Dallin Littlefield.</p>
+              <p class="blurb">A boutique Utah County criminal defense practice — handled directly by attorney Dallin Littlefield, a former prosecutor.</p>
             </div>
             <div>
               <h5>Practice</h5>
               <ul>
-                <li><a href="practice/criminal-defense.html">Criminal Defense</a></li>
-                <li><a href="practice/contracts.html">Contracts</a></li>
-                <li><a href="practice/wills-trusts-estate.html">Wills, Trusts &amp; Estate</a></li>
+                <li><a href="practice/criminal-defense.html">All Charges</a></li>
+                <li><a href="practice/criminal-defense/dui.html">DUI Defense</a></li>
+                <li><a href="practice/criminal-defense/drug-possession.html">Drug Possession</a></li>
+                <li><a href="practice/criminal-defense/domestic-violence.html">Domestic Violence</a></li>
+                <li><a href="practice/criminal-defense/assault.html">Assault</a></li>
+                <li><a href="practice/criminal-defense/theft.html">Theft &amp; Property Crimes</a></li>
+                <li><a href="practice/criminal-defense/expungement.html">Expungement</a></li>
               </ul>
             </div>
             <div>
@@ -75,7 +85,7 @@
               <ul>
                 <li><a href="tel:14352946806">(435) 294-6806</a></li>
                 <li><a href="mailto:assistant@littlefieldlegal.com">Assistant@LittlefieldLegal.com</a></li>
-                <li>Saratoga Springs, UT<br/>Serving all of Utah</li>
+                <li>Pleasant Grove, UT<br/>Serving Utah County &amp; beyond</li>
               </ul>
             </div>
           </div>
@@ -123,8 +133,8 @@
     document.querySelectorAll('.nav-links a[data-page]').forEach((a) => {
       if (a.getAttribute('data-page') === path) a.classList.add('active');
     });
-    // Also catch practice/* and resources/* sub-pages
-    if (path.startsWith('criminal') || path.startsWith('contracts') || path.startsWith('wills')) {
+    // Also catch practice/* sub-pages
+    if (path.startsWith('criminal') || path === 'dui.html' || path.startsWith('drug-') || path.startsWith('domestic-') || path.startsWith('assault') || path.startsWith('theft') || path.startsWith('burglary') || path.startsWith('traffic-') || path.startsWith('expungement')) {
       const m = document.querySelector('.nav-links a[data-page="practice-areas.html"]');
       if (m) m.classList.add('active');
     }
