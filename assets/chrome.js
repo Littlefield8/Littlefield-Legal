@@ -57,7 +57,7 @@
                 <span class="m">L</span>
                 <span class="t">Littlefield <em>Legal</em></span>
               </div>
-              <p class="blurb">A boutique Utah County criminal defense practice — handled directly by attorney Dallin Littlefield, a former prosecutor.</p>
+              <p class="blurb">A boutique criminal defense practice serving Utah County and Northern Utah — handled directly by attorney Dallin Littlefield, a former prosecutor.</p>
             </div>
             <div>
               <h5>Practice</h5>
@@ -85,7 +85,7 @@
               <ul>
                 <li><a href="tel:14352946806">(435) 294-6806</a></li>
                 <li><a href="mailto:assistant@littlefieldlegal.com">Assistant@LittlefieldLegal.com</a></li>
-                <li>Pleasant Grove, UT<br/>Serving Utah County &amp; beyond</li>
+                <li>Saratoga Springs, UT<br/>Serving Northern Utah</li>
               </ul>
             </div>
           </div>
