@@ -2,6 +2,12 @@
   "redirects": [
     { "source": "/criminal-defense", "destination": "/practice/criminal-defense.html", "permanent": true },
     { "source": "/areas-of-practice", "destination": "/practice-areas.html", "permanent": true },
-    { "source": "/newpage", "destination": "/", "permanent": true }
+    { "source": "/newpage", "destination": "/", "permanent": true },
+    { "source": "/practice/contracts.html", "destination": "/practice/criminal-defense.html", "permanent": true },
+    { "source": "/practice/contracts", "destination": "/practice/criminal-defense.html", "permanent": true },
+    { "source": "/practice/wills-trusts-estate.html", "destination": "/practice/criminal-defense.html", "permanent": true },
+    { "source": "/practice/wills-trusts-estate", "destination": "/practice/criminal-defense.html", "permanent": true },
+    { "source": "/contracts", "destination": "/practice/criminal-defense.html", "permanent": true },
+    { "source": "/wills-trusts-estate", "destination": "/practice/criminal-defense.html", "permanent": true }
   ]
 }

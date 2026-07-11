@@ -8,12 +8,12 @@
   <url>
     <loc>https://littlefieldlegal.com/about.html</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://littlefieldlegal.com/practice-areas.html</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://littlefieldlegal.com/practice/criminal-defense.html</loc>
@@ -21,12 +21,47 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://littlefieldlegal.com/practice/contracts.html</loc>
+    <loc>https://littlefieldlegal.com/practice/criminal-defense/dui.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://littlefieldlegal.com/practice/criminal-defense/drug-possession.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://littlefieldlegal.com/practice/criminal-defense/drug-trafficking.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://littlefieldlegal.com/practice/wills-trusts-estate.html</loc>
+    <loc>https://littlefieldlegal.com/practice/criminal-defense/domestic-violence.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://littlefieldlegal.com/practice/criminal-defense/assault.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://littlefieldlegal.com/practice/criminal-defense/theft.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://littlefieldlegal.com/practice/criminal-defense/burglary.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://littlefieldlegal.com/practice/criminal-defense/traffic-offenses.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://littlefieldlegal.com/practice/criminal-defense/expungement.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
